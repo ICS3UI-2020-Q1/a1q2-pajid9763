@@ -13,7 +13,7 @@ public class Main {
   Scanner input = new Scanner(System.in);
 
   // ask the user to enter the first integer
-  System.out.println("Enter the two integers on seperate lines, to be divided: ");
+  System.out.println("Please enter in two integers, on seperate lines, to divide.");
   int x = input.nextInt();
   int y = input.nextInt();
 
@@ -22,7 +22,7 @@ public class Main {
   int v = (x % y);
 
   // tell the user their answer
-  System.out.println(x + " divided by " + y + " equals " + z + " and has a remainder of " + v);
+  System.out.println(x + "/" + y + " is " + z + " with a remainder of " + v + ".");
 
 
   }
