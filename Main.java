@@ -13,7 +13,7 @@ public class Main {
   Scanner input = new Scanner(System.in);
 
   // ask the user to enter the first integer
-  System.out.println("Please enter in two integers, on seperate lines, to divide.");
+  System.out.println("Please enter in two integers, on seperate lines, to divide. ");
   int x = input.nextInt();
   int y = input.nextInt();
 
